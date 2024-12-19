@@ -1,0 +1,63 @@
+{
+    "courses":[
+        {
+            "course_id":"WEB_DEVELOPMENT",
+            "Details":[{
+                "id": 1,
+                "title": "HTML",
+                "image": "https://img.freepik.com/free-photo/programming-background-collage_23-2149901788.jpg?ga=GA1.1.688042556.1704957884&semt=ais_hybrid"
+        
+            },
+            {
+                "id": 2,
+                "title": "Bootstrap",
+                "image": "https://img.freepik.com/free-photo/person-front-computer-working-html_23-2150040416.jpg?ga=GA1.1.688042556.1704957884&semt=ais_hybrid"
+            },
+            {
+               "id": 3,
+                "title": "Javascript",
+                "image": "https://img.freepik.com/free-vector/programmers-using-javascript-programming-language-computer-tiny-people-javascript-language-javascript-engine-js-web-development-concept_335657-2412.jpg?ga=GA1.1.688042556.1704957884&semt=ais_hybrid"
+        
+            }
+
+            ]
+        },
+        {
+            "course_id":"DATABASE_AND_CLOUD",
+            "Details":[{
+                "id": 1,
+                "title": "Node Js",
+                "image":"https://img.freepik.com/free-photo/person-front-computer-working-html_23-2150040428.jpg?ga=GA1.1.688042556.1704957884&semt=ais_hybrid"
+            },
+            {
+                "id": 2,
+                "title": "Express Js",
+                "image": "https://images.unsplash.com/photo-1660054591552-3c888d8e5319?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bm9kZS5qc3xlbnwwfHwwfHx8MA%3D%3D"
+            },
+            {
+                "id": 3,
+                "title": "MongoDB",
+                "image": "https://imageio.forbes.com/specials-images/imageserve/64942249961f0334e13cb265/In-this-photo-illustration--the-MongoDB-logo-is-displayed-on---/960x0.jpg?format=jpg&width=960"
+            }]
+        },
+        {
+            "course_id":"PROGRAMMING_LANGUAGES",
+            "Details":[{
+                "id": 1,
+                "title": "Java",
+                "image": "https://t3.ftcdn.net/jpg/07/92/54/96/360_F_792549648_VbomK8vzUGS721stxliK388holoa8Ag5.jpg"
+        
+            },
+            {
+                "id": 2,
+               "title": "C plus plus",
+                "image": "https://www.shutterstock.com/image-photo/c-programming-language-large-lettering-260nw-1770351188.jpg"
+            },
+            {
+                "id": 3,
+                "title": "Java 8",
+                "image": "https://media.istockphoto.com/id/1169929038/photo/developing-programmer-team-development-website-design-and-coding-technologies-working-in.jpg?s=612x612&w=0&k=20&c=iYn6eu084MXrhdW8JEyJ1vcCHIfyMhvnKyk6AkAgmME="
+            }]
+        }
+    ]
+}
