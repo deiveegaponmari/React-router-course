@@ -4,13 +4,7 @@ import { useEffect, useState } from "react";
 
 
 export default function Home() {
-    const [course, setcourse] = useState({ courses: [] });
-    useEffect(() => {
-        fetch("http://localhost:5173/courses.json")
-            .then((response) => response.json())
-            .then((result) => /* console.log(result) */
-                setcourse(result))
-    }, []);
+   
     return (
         <div className="app-container">
             <Navbar />

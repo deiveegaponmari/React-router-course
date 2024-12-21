@@ -1,4 +1,4 @@
-export default function All(){
+export default function career(){
     return (
         <div className="container">
             career PAGE

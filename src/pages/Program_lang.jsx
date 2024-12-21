@@ -1,4 +1,4 @@
-export default function All(){
+export default function Program_lang(){
     return (
         <div className="container">
             Program-lang PAGE

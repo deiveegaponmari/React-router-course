@@ -18,6 +18,9 @@ function Navbar(){
       <li className="nav-item">
         <Link className="nav-link" href="#" to={'/PROGRAMMING_LANGUAGES'}>PROGRAMMING LANGUAGES</Link>
       </li>
+      <li className="nav-item">
+        <Link className="nav-link" href="#" to={'/Career'}>Career</Link>
+      </li>
        </ul>
   </div>
 </div>

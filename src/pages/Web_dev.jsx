@@ -1,7 +1,9 @@
-export default function All(){
+export default function Web_dev({course}){
     return (
-        <div className="container">
-            web-dev PAGE
+        <div className="container ">
+    {
+  course.courses.filter((data)=>data.course_id==="WEB_DEVELOPMENT")
+    }
         </div>
     )
-}
+} 
