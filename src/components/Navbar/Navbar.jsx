@@ -10,7 +10,13 @@ function Navbar(){
         <Link className="nav-link active" aria-current="page" href="#" to={'/'}>ALL</Link>
       </li>
       <li className="nav-item">
-        <Link className="nav-link " aria-current="page" href="#" to={'/course/:courseId'}>WEB DEVELOPMENT</Link>
+        <Link className="nav-link " aria-current="page" href="#" to={'/course/WEB_DEVELOPMENT'}>WEB_DEVELOPMENT</Link>
+      </li>
+      <li className="nav-item">
+        <Link className="nav-link " aria-current="page" href="#" to={'/course/DATABASE_AND_CLOUD'}>DATABASE_AND_CLOUD</Link>
+      </li>
+      <li className="nav-item">
+        <Link className="nav-link " aria-current="page" href="#" to={'/course/PROGRAMMING_LANGUAGES'}>PROGRAMMING_LANGUAGES</Link>
       </li>
       <li className="nav-item">
         <Link className="nav-link" href="#" to={'/Career'}>Career</Link>

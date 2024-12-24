@@ -10,20 +10,19 @@ export default function App() {
   const [course, setcourse] = useState({ courses: [] });
   
   useEffect(() => {
-      fetch("http://localhost:5174/courses.json")
+      fetch("http://localhost:5173/courses.json")
           .then((response) => response.json())
-          .then((result) =>  console.log(result) 
-              /* setcourse(result) */)
+          .then((result) =>setcourse(result) )
   }, []);
 
  return (
     <div className='container'>
       <Navbar/>
       <Routes>
-        <Route Component={<All course={course}/>} path='/'></Route>
-        <Route Component={FilteredPage}
+        <Route element={<All course={course}/>} path='/'></Route>
+        <Route element={<FilteredPage/>}
          path='/course/:courseId'></Route>
-        <Route Component={<Career course={course}/>} path='/Career'></Route>
+        <Route element={<Career course={course}/>} path='/Career'></Route>
       </Routes>
     </div>
       )
